@@ -75,7 +75,7 @@
 </ul></li>
 </ul>
 
-<p>The CSV file came from a query at the Douglas County, NV Assessor&#39;s office URL: <a href="http://assessor-search.douglasnv.us:1401/cgi-bin/asw300">http://assessor-search.douglasnv.us:1401/cgi-bin/asw300</a> use the &#39;Excel Download&#39; button Search terms,</p>
+<p>The CSV file came from a query at the Douglas County, NV Assessor&#39;s office <a href="http://assessor-search.douglasnv.us:1401/cgi-bin/asw300">URL</a></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -83,12 +83,12 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>The logistics</h2>
+    <h2>What it looks like</h2>
   </hgroup>
   <article data-timings="">
     <h3><a href="https://raconger.shinyapps.io/housing-sales/">Go to the app!</a></h3>
 
-<p><img src="/media/app.png" alt="Beautiful screenshot"></p>
+<p><img src="http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png" alt="Beautiful screenshot"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -96,10 +96,38 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>The logistics</h2>
+    <h2>What it calculates</h2>
   </hgroup>
   <article data-timings="">
     <h3><a href="https://raconger.shinyapps.io/housing-sales/">Go to the app!</a></h3>
+
+<p>In addition to the year and date, these pages calculate dollars per square foot and then plots it in a few different ways.</p>
+
+<p>An example can be shown below:</p>
+
+<pre><code class="r">sale_price &lt;- 300000 # Sale price of $300k
+square_footage &lt;- 1745 # 1,745 square feet
+
+dol_p_sqft &lt;- sale_price / square_footage
+print(dol_p_sqft)
+</code></pre>
+
+<pre><code>## [1] 171.9198
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Thanks!</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3><a href="https://raconger.shinyapps.io/housing-sales/">Go to the app!</a></h3>
+
+<p><a href="https://github.com/raconger/housing-sales">Go to the source! (for the app)</a>
+<a href="https://github.com/raconger/Housing-Sales-Shiny-App">Go to the source! (for the pitch)</a></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -123,14 +151,20 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='The logistics'>
+        data-slide=3 title='What it looks like'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='The logistics'>
+        data-slide=4 title='What it calculates'>
          4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Thanks!'>
+         5
       </a>
     </li>
   </ul>

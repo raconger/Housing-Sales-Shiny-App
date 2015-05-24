@@ -29,22 +29,36 @@ knit        : slidify::knit2slides
   - parcel number: 131800000000:131999999999
   - date range: 0101200:05172015
 
-The CSV file came from a query at the Douglas County, NV Assessor's office URL: http://assessor-search.douglasnv.us:1401/cgi-bin/asw300 use the 'Excel Download' button Search terms,
+The CSV file came from a query at the Douglas County, NV Assessor's office [URL](http://assessor-search.douglasnv.us:1401/cgi-bin/asw300)
 
 --- .class #id 
 
-## The logistics
+## What it looks like
 ### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
 
 ![Beautiful screenshot](http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png)
 
 --- .class #id 
 
-## The logistics
+## What it calculates
 ### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
 
+In addition to the year and date, these pages calculate dollars per square foot and then plots it in a few different ways.
 
+An example can be shown below:
+```{r}
+sale_price <- 300000 # Sale price of $300k
+square_footage <- 1745 # 1,745 square feet
 
+dol_p_sqft <- sale_price / square_footage
+print(dol_p_sqft) # $/ft^2
+```
 
+--- .class #id
+
+## Thanks!
+### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
+[Go to the source! (for the app)](https://github.com/raconger/housing-sales)
+[Go to the source! (for the pitch)](https://github.com/raconger/Housing-Sales-Shiny-App)
 
 
