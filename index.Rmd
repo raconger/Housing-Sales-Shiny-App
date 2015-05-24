@@ -13,13 +13,37 @@ knit        : slidify::knit2slides
 
 ## The Motivation
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+1. Housing prices vary quite a bit over time
+2. People note all kinds of trends nationwide
+3. The data are accessible, so why not look at it?
+3. [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
 
 --- .class #id 
 
-## Slide 2
+## The logistics
+### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
+
+- Historical sales data was obtained from the Douglas County (NV) assessor's website
+- The following parameters are used
+  - Upper Kingsbury (District 430) housing sales from 2000 to 2015
+  - parcel number: 131800000000:131999999999
+  - date range: 0101200:05172015
+
+The CSV file came from a query at the Douglas County, NV Assessor's office URL: http://assessor-search.douglasnv.us:1401/cgi-bin/asw300 use the 'Excel Download' button Search terms,
+
+--- .class #id 
+
+## The logistics
+### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
+
+![Beautiful screenshot](/media/app.png)
+
+--- .class #id 
+
+## The logistics
+### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
+
+
 
 
 
