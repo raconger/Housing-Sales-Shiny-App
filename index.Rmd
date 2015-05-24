@@ -36,7 +36,7 @@ The CSV file came from a query at the Douglas County, NV Assessor's office URL: 
 ## The logistics
 ### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
 
-![Beautiful screenshot](/media/app.png)
+![Beautiful screenshot](http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png)
 
 --- .class #id 
 
