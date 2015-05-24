@@ -34,9 +34,8 @@ The CSV file came from a query at the Douglas County, NV Assessor's office [URL]
 --- .class #id 
 
 ## What it looks like
-### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
 
-![Beautiful screenshot](http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png)
+<img src="http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png" alt="Beautiful screenshot" width="100%">
 
 --- .class #id 
 
@@ -58,7 +57,9 @@ print(dol_p_sqft) # $/ft^2
 
 ## Thanks!
 ### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
+
 [Go to the source! (for the app)](https://github.com/raconger/housing-sales)
+
 [Go to the source! (for the pitch)](https://github.com/raconger/Housing-Sales-Shiny-App)
 
 

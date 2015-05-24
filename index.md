@@ -34,9 +34,8 @@ The CSV file came from a query at the Douglas County, NV Assessor's office [URL]
 --- .class #id 
 
 ## What it looks like
-### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
 
-![Beautiful screenshot](http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png)
+<img src="http://raconger.github.io/Housing-Sales-Shiny-App/media/app.png" alt="Beautiful screenshot" width="100%">
 
 --- .class #id 
 
@@ -52,7 +51,7 @@ sale_price <- 300000 # Sale price of $300k
 square_footage <- 1745 # 1,745 square feet
 
 dol_p_sqft <- sale_price / square_footage
-print(dol_p_sqft)
+print(dol_p_sqft) # $/ft^2
 ```
 
 ```
@@ -63,7 +62,9 @@ print(dol_p_sqft)
 
 ## Thanks!
 ### [Go to the app!](https://raconger.shinyapps.io/housing-sales/)
+
 [Go to the source! (for the app)](https://github.com/raconger/housing-sales)
+
 [Go to the source! (for the pitch)](https://github.com/raconger/Housing-Sales-Shiny-App)
 
 
